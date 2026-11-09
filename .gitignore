@@ -1,0 +1,59 @@
+# ---------- Secrets / Environment ----------
+.env
+*.env
+.env.*
+!.env.example
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---------- Testing / Coverage ----------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- ADK specific ----------
+.adk/
+*.db
+*.sqlite3
+sessions.db
+
+# ---------- Google Cloud credentials ----------
+*credentials*.json
+service-account*.json
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db

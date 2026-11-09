@@ -1,0 +1,20 @@
+[project]
+name = "google-adk-project-multiagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abhishek Pathak", email = "abhishek.pathak01111@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk>=2.14.0",
+    "litellm>=1.108.3",
+]
+
+[project.scripts]
+google-adk-project-multiagent = "google_adk_project_multiagent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
